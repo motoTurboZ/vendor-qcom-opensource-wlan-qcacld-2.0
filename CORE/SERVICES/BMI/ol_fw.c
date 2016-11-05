@@ -61,6 +61,8 @@
 
 #include "qwlan_version.h"
 
+#undef FEATURE_SECURE_FIRMWARE
+
 #ifdef FEATURE_SECURE_FIRMWARE
 static struct hash_fw fw_hash = {
 
